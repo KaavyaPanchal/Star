@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo2.jpeg">
+    <link rel="stylesheet" href="about.css">
+    <title>About Us | StarOverSeas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+    <nav>
+        <a href="home.html" class="logo"><img src="images/logo.png" alt="StarOverSeas Logo"></a>
+        <button class="nav-button" aria-label="Toggle Navigation">&#9776;</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="#">About Us</a> 
+                <ul class="dropdown">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#mission">Our Mission</a></li>
+                    <li><a href="#vision">Our Vision</a></li>
+                    <li><a href="#core-values">Core Values</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                </ul>
+            </li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>About Us</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to StarOverSeas. In phase 1, SOL initiated production of Home usage Aluminum Foil. As of today majority of these products are imported and SOL shall provide the solution for  import substitution as well as create an export opportunity for these products as they are in high demand in neighbouring countries. In phase 2, the company has identified products which are imported in high quantities which include Kitchen Towels, Serviettes and Toilet roll. The Paper core planned for production will reduce our import dependency and reduction of cost for the paper core which is very essential for the packaging of the products planned. Similarly the Paper cups will be made with PLA coated paper which is eco friendly and in line with REMA (Rwanda Environmental Management Authority) directives on single use plastics.</p>
+    </section>
+
+    <section id="mission">
+        <h2>Our Mission</h2>
+        <p>Deal in products which can be recycled thereby helping the broader objectives of sustainability along with creating new opportunities, Import Substitution and Exports opportunity and develop skilled manpower.</p>
+    </section>
+
+    <section id="vision">
+        <h2>Our Vision</h2>
+        <p></p><li>To be the leading manufacturing company in Rwanda.</li></p>
+
+        <p> <li>Import Substitution and Export Potential tapping.</li></p>
+    </section>
+
+    <section id="core-values">
+        <h2>Core Values</h2>
+        
+           <p> <li> <b>Integrity</b> – We are sincere, trustworthy and reliable.</li></p>
+        </p><li><b>Customer Service</b> – All our actions are customer centric with their satisfaction as our paramount objective.</li></p>
+        </p><li><b>Continuous Learning</b> – Passionately seeking knowledge for self, employees, customers and all stake holders.</li></p>
+        </p><li><b>Innovation</b> – Approach all issues with an innovative method seeking new solutions which are cost effective, time reducing and improve efficiency.</li></p>
+        </p><li><b>Commitment to Sustainability</b> – All our processes are aligned with the global sustainability objectives.</li></p>
+        
+    </section>
+
+    <section id="team">
+        <h2>Our Team</h2>
+        <p>Meet the amazing people behind StarOverSeas.</p>
+    </section>
+
+    <script>
+        const navButton = document.querySelector('.nav-button');
+        const navLinks = document.querySelector('.nav-links');
+        navButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>StarOverSeas LTD</h3>
+            <p>StarOverSeas is committed to providing top-quality aluminum foil products. Our mission is to ensure freshness and convenience in your kitchen.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <ul>
+                <li><a href="about.html#mission">Mission</a></li>
+                    <li><a href="about.html#vision">Vision</a></li>
+                    <li><a href="about.html#core-values">Values</a></li>
+                    <li><a href="about.html#team">Team</a></li>
+            </ul>
+        </div>
+        <div class="footer-section contact-section">
+            <h3>Contact Us</h3>
+            <p>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:staroverseasrw@gmail.com">staroverseasrw@gmail.com</a>
+            </p>
+            <p>
+                <i class="fas fa-phone"></i>
+                <a href="tel:+250791590654">+250 791 590 654</a>
+            </p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/9uokEkVLtxNNaePE/" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/your_twitter_account" target="_blank" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/your_instagram_account" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 StarOverSeas. All Rights Reserved.</p>
+    </div>
+</div>
+</footer>
+
+</html>
